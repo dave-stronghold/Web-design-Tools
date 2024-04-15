@@ -1,0 +1,1 @@
+1. Be **Dead Sexy** - in style, charisma and demeanor
