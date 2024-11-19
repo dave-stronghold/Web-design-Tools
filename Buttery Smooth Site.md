@@ -36,11 +36,13 @@
 	 Reachat
 	 https://reablocks.dev/
 	 Reaviz
+	 Splide
 
 
 >List of Tools
 
 	Stately AI - States and Flows - https://stately.ai/
+	Codehike for code interface
 	!!React PDF - https://react.onedoclabs.com/introduction
 	xState Machine React
 	glaxanimate
@@ -54,6 +56,11 @@
 		https://www.npmjs.com/package/@owenjs/lets-tour
 		https://react-shepherd.vercel.app/
 		https://www.react.tours/
+	Modernizr-feauture detection
+
+>Multiplayer
+
+	Colyseus
 
 
 >Static Site Generators
@@ -129,6 +136,10 @@
 	Keyframes https://keyframes.app/
 	Motion Dev tools 
 	Gimli Tailwind
+	Tailscan
+	https://hymhub.github.io/css-to-tailwind/
+	Onlook React UI
+	Responsively
 
 >Motion Interactive tools 
 
@@ -186,3 +197,12 @@
 >New Horizons
 
 	RxJs
+
+>CDNs
+
+	statically.io
+	Jsdeliver
+
+>References
+
+	Openalternative.co
