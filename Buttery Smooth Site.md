@@ -37,6 +37,7 @@
 	 https://reablocks.dev/
 	 Reaviz
 	 Splide
+	 Howler-js Audio
 
 
 >List of Tools
@@ -57,6 +58,7 @@
 		https://react-shepherd.vercel.app/
 		https://www.react.tours/
 	Modernizr-feauture detection
+	Hoppscotch - api tester
 
 >Multiplayer
 
@@ -72,6 +74,21 @@
 
 	Payload CMS - https://payloadcms.com/
 	Decap CMS - https://decapcms.org/ (git based workflow)
+	Twill cms -liteweight
+
+>Backend
+
+	Pocketbase
+	Supabase
+	Appwrite
+	encore
+
+>Search
+
+	Typesense
+	meilisearch
+	orama
+
 
 >ORM
 
@@ -139,6 +156,7 @@
 	Tailscan
 	https://hymhub.github.io/css-to-tailwind/
 	Onlook React UI
+	Noodl AI MVP builder
 	Responsively
 
 >Motion Interactive tools 
@@ -177,8 +195,7 @@
 
 >Node-based interfaces
 
->https://relatedrepos.com/gh/jagenjo/litegraph.js
-
+	https://relatedrepos.com/gh/jagenjo/litegraph.js
 	React-flow **
 		https://www.ideation-studio.dev/
 	drawflow *
@@ -206,3 +223,12 @@
 >References
 
 	Openalternative.co
+
+>opengraph
+
+	imgsrc.io
+
+>Mindstorm
+
+	Obsidian
+	Anytype
