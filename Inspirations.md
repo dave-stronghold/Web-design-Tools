@@ -6,6 +6,7 @@
 4. Radix UI
 5. Dieter Rams
 6. Masimmo Vignelli
+7. Ultra.tf
 
 >List of creative apps
 
@@ -14,3 +15,7 @@
 >List of Award winning sites
 
 1. https://www.cssdesignawards.com/
+
+>Dark Mode
+
+https://www.darkfolios.com/

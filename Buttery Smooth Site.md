@@ -38,7 +38,8 @@
 	 Reaviz
 	 Splide
 	 Howler-js Audio
-
+	 CMDK-https://cmdk.paco.me/
+	 DnD kit
 
 >List of Tools
 
@@ -59,6 +60,7 @@
 		https://www.react.tours/
 	Modernizr-feauture detection
 	Hoppscotch - api tester
+	https://themer.dev/
 
 >Multiplayer
 
@@ -82,6 +84,9 @@
 	Supabase
 	Appwrite
 	encore
+
+>User Experience Dev
+	https://github.com/GoogleChromeLabs/react-adaptive-hooks
 
 >Search
 
