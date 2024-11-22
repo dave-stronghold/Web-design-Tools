@@ -1,239 +1,283 @@
->List of Technologies
+> List of Technologies
 
-	 Lenis - A smooth Scroll library
-	 scrollex
-	 Gatsby and React
-	 p5js for 2d
-	 Codrops for tutorials
-	 3js journey
-	 Scrolltrigger
-	 Lottiefiles
-	 Opengraph for preview messages
-	 Microlink.io
-	 Mapbox GL for maps
-	 Pesticide Chrome Extension
-	 Framer Motion Scroll Trigger -- motion one
-	 jotai for state management
-	 React Masonry CSS
-	 Nextra, Fumadocs for Documentation site generator
-	 React Live for code execution
-	 Plausible for analytics
-	 LightGallery for image gallery
-	 MalingJS
-	 Vercel Geist Font
-	 NextUI
-	 Daisy UI
-	 Shad CN
-	 react-query instead of useEffect
-	 Vercel opengraph
-	 yqnn SVG graph editor
-	 COBE -  10KB globe
-	 react-scroll-parallax
-	 Scrollex
-	 Matter JS - physics engine
-	 isotope react
-	 slidev - https://sli.dev/
-	 Reachat
-	 https://reablocks.dev/
-	 Reaviz
-	 Splide
-	 Howler-js Audio
-	 CMDK-https://cmdk.paco.me/
-	 DnD kit
+     Lenis - A smooth Scroll library
+     scrollex
+     Gatsby and React
+     p5js for 2d
+     Codrops for tutorials
+     3js journey
+     Scrolltrigger
+     Lottiefiles
+     Opengraph for preview messages
+     Microlink.io
+     Mapbox GL for maps
+     Pesticide Chrome Extension
+     Framer Motion Scroll Trigger -- motion one
+     jotai for state management
+     React Masonry CSS
+     Nextra, Fumadocs for Documentation site generator
+     React Live for code execution
+     Plausible for analytics
+     LightGallery for image gallery
+     MalingJS
+     Vercel Geist Font
+     NextUI
+     Daisy UI
+     Shad CN
+     react-query instead of useEffect
+     Vercel opengraph
+     yqnn SVG graph editor
+     COBE -  10KB globe
+     react-scroll-parallax
+     Scrollex
+     Matter JS - physics engine
+     isotope react
+     slidev - https://sli.dev/
+     Reachat
+     https://reablocks.dev/
+     Reaviz
+     Splide
+     Howler-js Audio
+     CMDK-https://cmdk.paco.me/
+     DnD kit
+     *https://rombo.co/tailwind/
+     popmotion
+     https://atroposjs.com/ - 3d parallex
+	 locomotive scroll
 
->List of Tools
+> List of Tools
 
-	Stately AI - States and Flows - https://stately.ai/
-	Codehike for code interface
-	!!React PDF - https://react.onedoclabs.com/introduction
-	xState Machine React
-	glaxanimate
-	DnD kit for draggable
-	friction.graphics
-	UI Component tester - React Cosmos
-	Fuma Docs
-	Ezjson
-	Tours- 
-		https://react-joyride.com/
-		https://www.npmjs.com/package/@owenjs/lets-tour
-		https://react-shepherd.vercel.app/
-		https://www.react.tours/
-	Modernizr-feauture detection
-	Hoppscotch - api tester
-	https://themer.dev/
+    Stately AI - States and Flows - https://stately.ai/
+    Codehike for code interface
+    !!React PDF - https://react.onedoclabs.com/introduction
+    xState Machine React
+    glaxanimate
+    DnD kit for draggable
+    friction.graphics
+    UI Component tester - React Cosmos
+    Fuma Docs
+    Ezjson
+    Tours-
+    	https://react-joyride.com/
+    	https://www.npmjs.com/package/@owenjs/lets-tour
+    	https://react-shepherd.vercel.app/
+    	https://www.react.tours/
+    Modernizr-feauture detection
+    Hoppscotch - api tester
+    https://themer.dev/
+    https://scrollbar.app/
+	https://react-pdf.org/styling
 
->Multiplayer
+> Graphic Design + resources
 
-	Colyseus
-
-
->Static Site Generators
-
-	https://jamstack.org/generators/
-	https://astro.build/themes
-
->Headless CMS
-
-	Payload CMS - https://payloadcms.com/
-	Decap CMS - https://decapcms.org/ (git based workflow)
-	Twill cms -liteweight
-
->Backend
-
-	Pocketbase
-	Supabase
-	Appwrite
-	encore
-
->User Experience Dev
-	https://github.com/GoogleChromeLabs/react-adaptive-hooks
-
->Search
-
-	Typesense
-	meilisearch
-	orama
+    https://www.noiseandgradient.com/
+    https://phosphoricons.com/
+    https://css.gg/
+    Minimator
+    Lucide
+	https://remixicon.com/
+	https://yesicon.app **
+	https://iconoir.com/ **
+    Mymind
+    Coolors
+	https://meshgradient.com/
+	https://hypercolor.dev/generator
+	https://neumorphism.io/
+	https://uiverse.io/spotlight **
+	Smooth shadow - https://shadows.brumm.af/
+	https://futicons.com/ - futuristic
 
 
->ORM
+> Multiplayer
 
-	Drizzle
-	Prisma
-	Kysely
-	EdgeDB
-	seaORM+tauri
+    Colyseus
 
->Deployment
+> Static Site Generators
 
-	Coolify
+    https://jamstack.org/generators/
+    https://astro.build/themes
 
->Authentication
+> Headless CMS
 
-	Lucia
-	Clerk
-	eartho
+    Payload CMS - https://payloadcms.com/
+    Decap CMS - https://decapcms.org/ (git based workflow)
+    Twill cms -liteweight
 
->Content Editors
+    Outstatic - nextjs
 
-	Novel.sh
+> Backend
 
->Headless UI Libraries
+    Pocketbase
+    Supabase
+    Appwrite
+    encore
+    https://database.build/ - postgres builder.. starred in github
 
-	ShadCN
-	react-aria
-	radix
-	react table
-	react floating ui
+> Database Tools
 
->CSS frameworks
+    https://database.build/ - postgres builder.. starred in github
+    https://www.drawdb.app/
 
-	Tailwindcss
-	Unocss
-	vanilla extract+sprinkles
+> User Experience Dev
 
->Beautiful UI
+    https://github.com/GoogleChromeLabs/react-adaptive-hooks
 
-	Daisy UI
-	Next UI
-	Una UI
-	Radix UI
-	Rafty UI
-	Aceternity UI - (https://ui.aceternity.com/)
-	Preline UI
-	Ripple UI
-	Park UI
+> Search
 
->Command Palette
+    Typesense
+    meilisearch
+    orama
 
-	reacr-cmdk
+> ORM
 
->Tables - data grids - pivot tables
+    Drizzle
+    Prisma
+    Kysely
+    EdgeDB
+    seaORM+tauri
 
-	AG grid
-	vtable datagrid
-	Glide Data grid
+> Deployment
 
->Developer tools
+    Coolify
 
-	Keyframes https://keyframes.app/
-	Motion Dev tools 
-	Gimli Tailwind
-	Tailscan
-	https://hymhub.github.io/css-to-tailwind/
-	Onlook React UI
-	Noodl AI MVP builder
-	Responsively
+> Authentication
 
->Motion Interactive tools 
+    Lucia
+    Clerk
+    eartho
 
-	mo.js - https://mojs.github.io/ https://vimeo.com/185587462
-	matter JS
-	Leva - GUI
-	TheaterJS
-	framer-motion-theater
-	canon pmndrs
+> Content Editors
 
->Charts
+    Novel.sh
 
-	D3
-	Mermaid Chart - Syntax based diagram Gen
+> Headless UI Libraries
 
->Hotshots
+    ShadCN
+    react-aria
+    radix
+    react table
+    react floating ui
 
-	bettertyped.github.io - React Zoom Pan Pinch
-	https://daybrush.com/moveable - react moveable
-	https://naver.github.io/ - react-axes
-	https://daybrush.com/guides/
-	https://daybrush.com/infinite-viewer/
+> CSS frameworks
 
->Modular Web Design UI's
+    Tailwindcss
+    Unocss
+    vanilla extract+sprinkles
 
-	floatui.com
-	tailus
-	Uno.unify-ui
+> Beautiful UI
 
->AI Lang UI's
+    Daisy UI
+    Next UI
+    Una UI
+    Radix UI
+    Rafty UI
+    Aceternity UI - (https://ui.aceternity.com/)
+    Preline UI
+    Ripple UI
+    Park UI
+    https://tamagui.dev/
+    https://mafs.dev/guides/get-started/installation
+    Magic UI**
+    Myna UI - enterprise-grade
+    Shadcn
 
-	langui.dev
+> Command Palette
+
+    reacr-cmdk
+
+> Tables - data grids - pivot tables
+
+    AG grid
+    vtable datagrid
+    Glide Data grid
+
+> Developer tools
+
+    Keyframes https://keyframes.app/
+    Motion Dev tools
+    Gimli Tailwind
+    Tailscan
+    https://hymhub.github.io/css-to-tailwind/
+    Onlook React UI
+    Noodl AI MVP builder
+    Responsively
+    https://frontendchecklist.io/
+    https://fullwindcss.com/
+
+> Motion Interactive tools
+
+    mo.js - https://mojs.github.io/ https://vimeo.com/185587462
+    matter JS
+    Leva - GUI
+    TheaterJS
+    framer-motion-theater
+    canon pmndrs
+
+> Charts
+
+    D3
+    Mermaid Chart - Syntax based diagram Gen
+
+> Hotshots
+
+    bettertyped.github.io - React Zoom Pan Pinch
+    https://daybrush.com/moveable - react moveable
+    https://naver.github.io/ - react-axes
+    https://daybrush.com/guides/
+    https://daybrush.com/infinite-viewer/
+    https://mafs.dev/guides/get-started/installation
+
+> Modular Web Design UI's
+
+    floatui.com
+    Meraki ui
+    tailus
+    Uno.unify-ui
+    Magic UI**
+	Hyper UI
+
+> AI Lang UI's
+
+    langui.dev
 
 ## GUI Scripting Interfaces
 
->Node-based interfaces
+> Node-based interfaces
 
-	https://relatedrepos.com/gh/jagenjo/litegraph.js
-	React-flow **
-		https://www.ideation-studio.dev/
-	drawflow *
-	flume.dev
-	https://retejs.org/
-	litegraph js
-	https://www.usenodl.dev/ **
-	https://projectstorm.cloud/react-diagrams/
-	Mermaid JS *
+    https://relatedrepos.com/gh/jagenjo/litegraph.js
+    React-flow **
+    	https://www.ideation-studio.dev/
+    drawflow *
+    flume.dev
+    https://retejs.org/
+    litegraph js
+    https://www.usenodl.dev/ **
+    https://projectstorm.cloud/react-diagrams/
+    Mermaid JS *
 
->Standalone Interfaces
+> Standalone Interfaces
 
-	https://nomcopter.github.io/react-mosaic/
-	Daybrush Moveable
+    https://nomcopter.github.io/react-mosaic/
+    Daybrush Moveable
 
->New Horizons
+> New Horizons
 
-	RxJs
+    RxJs
 
->CDNs
+> CDNs
 
-	statically.io
-	Jsdeliver
+    statically.io
+    Jsdeliver
 
->References
+> References
 
-	Openalternative.co
+    Openalternative.co
 
->opengraph
+> opengraph
 
-	imgsrc.io
+    imgsrc.io
 
->Mindstorm
+> Mindstorm
 
-	Obsidian
-	Anytype
+    Obsidian
+    Anytype

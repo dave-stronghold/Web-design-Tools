@@ -5,3 +5,5 @@
 
 	Qt.io - C++, QML
 	Proton-native - nodejs
+
+	https://onestack.dev/ - react+vite

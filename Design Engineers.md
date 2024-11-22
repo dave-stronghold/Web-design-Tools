@@ -4,6 +4,7 @@
 4. https://paco.me/
 5. https://www.joshwcomeau.com/
 6. https://github.com/kentcdodds
+7. https://www.cristhgunners.com/page4/
 
 
 >Blogs 
@@ -14,3 +15,4 @@ loversmagazine
 https://www.rob.directory/
 
 https://propjockey.io/ - cyberpunk guy
+https://www.cristhgunners.com/page50/  ****
