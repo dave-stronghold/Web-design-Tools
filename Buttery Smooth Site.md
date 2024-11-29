@@ -171,7 +171,7 @@
     Una UI
     Radix UI
     Rafty UI
-    Aceternity UI - (https://ui.aceternity.com/)
+    Aceternity UI - (https://ui.aceternity.com/) **
     Preline UI
     Ripple UI
     Park UI
@@ -180,6 +180,8 @@
     Magic UI**
     Myna UI - enterprise-grade
     Shadcn
+    motion primitives **
+    https://headlessui.com/
 
 > Command Palette
 
@@ -217,6 +219,8 @@
 
     D3
     Mermaid Chart - Syntax based diagram Gen
+    nivo.rocks
+    https://uber.github.io/#/**
 
 > Hotshots
 
@@ -235,6 +239,7 @@
     Uno.unify-ui
     Magic UI**
 	Hyper UI
+    motion-primitives**
 
 > AI Lang UI's
 
@@ -281,3 +286,11 @@
 
     Obsidian
     Anytype
+
+>Realtime Viz
+
+    https://avs.auto/
+    streetscape.gl
+    kepler.gl
+    deck.gl
+    vis.g
