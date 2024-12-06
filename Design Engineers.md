@@ -7,6 +7,7 @@
 7. https://www.cristhgunners.com/page4/
 
 
+
 >Blogs 
 
 https://www.30secondsofcode.org/
@@ -16,3 +17,6 @@ https://www.rob.directory/
 
 https://propjockey.io/ - cyberpunk guy
 https://www.cristhgunners.com/page50/  ****
+https://vanschneider.com/ 
+https://www.designsystems.com/
+https://www.designuplift.com/
