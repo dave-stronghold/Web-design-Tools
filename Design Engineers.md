@@ -20,3 +20,6 @@ https://www.cristhgunners.com/page50/  ****
 https://vanschneider.com/ 
 https://www.designsystems.com/
 https://www.designuplift.com/
+https://www.curationofcurations.com/
+
+https://uiplaybook.dev

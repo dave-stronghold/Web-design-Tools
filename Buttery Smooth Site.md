@@ -166,8 +166,13 @@
 
 > Beautiful UI
 
+    StorefrontUI**
+    Tailus UI**
     Daisy UI
-    Next UI
+    origin UI
+    Hero UI
+    BundUI
+    LunarUI
     Una UI
     Radix UI
     Rafty UI
@@ -183,6 +188,8 @@
     Shadcn
     motion primitives **
     https://headlessui.com/
+
+    https://tailkits.com/
 
 > Command Palette
 
@@ -268,7 +275,10 @@
 
 > New Horizons
 
-    RxJs
+    RxJs,epics
+    webmidi,
+    batterystatus,
+    webhid,
 
 > CDNs
 
