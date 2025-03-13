@@ -5,6 +5,7 @@
 5. https://www.joshwcomeau.com/
 6. https://github.com/kentcdodds
 7. https://www.cristhgunners.com/page4/
+8. Frontend FYI – by Jeroen
 
 
 
@@ -21,5 +22,16 @@ https://vanschneider.com/
 https://www.designsystems.com/
 https://www.designuplift.com/
 https://www.curationofcurations.com/
+https://www.frontend.fyi/
 
 https://uiplaybook.dev
+https://github.com/plxity/framer-recipes?tab=readme-ov-file
+godly.website
+
+
+>frontend
+https://sinja.io/
+https://emilkowal.ski/
+https://www.frontend.fyi/
+
+Shane Mielke

@@ -177,6 +177,7 @@
     Radix UI
     Rafty UI
     Aceternity UI - (https://ui.aceternity.com/) **
+    React Bits **   
     https://originui.com/***
     Preline UI
     Ripple UI
