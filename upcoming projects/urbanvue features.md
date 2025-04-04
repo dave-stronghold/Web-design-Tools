@@ -13,3 +13,10 @@ https://www.youtube.com/watch?v=hecsT0brkcA
     available unit pictorial representation(voxel world).
     parallax annotation (dot line axis rcc).
     info island.
+
+<!-- Xstate -->
+    History state node
+    activities
+    self transition (. notation)
+    parallel states
+    hierrarichal states (#id for state access)

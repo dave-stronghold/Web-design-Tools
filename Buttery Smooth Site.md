@@ -3,7 +3,7 @@
      Lenis - A smooth Scroll library
      scrollex
      Gatsby and React
-     p5js for 2d
+     p5
      Codrops for tutorials
      3js journey
      Scrolltrigger
@@ -44,6 +44,27 @@
      popmotion
      https://atroposjs.com/ - 3d parallex
 	 locomotive scroll
+     troika3d react
+     shaderpark**
+     hamo
+     
+>Utility Libraries
+    
+    remeda
+    arktype
+    rehooks
+    useHooks
+
+>2d JS libraries
+
+    p5js for 2d
+    zdog
+    two js
+    konva
+    pixi
+    paper js
+    regl- webgl abstraction
+
 
 > List of Tools
 
@@ -243,6 +264,7 @@
 > Modular Web Design UI's
 
     floatui.com
+    Pixel UI
     Meraki ui
     tailus
     Uno.unify-ui

@@ -1,0 +1,562 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #383838;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.bento-outer {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px;
+  background-color: #383838;
+}
+@media only screen and (max-width: 1259px) {
+  .bento-outer {
+    padding: 24px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .bento-outer {
+    display: block;
+    padding: 84px 16px 16px;
+  }
+}
+.bento-outer.bento--bg .bento-background {
+  visibility: visible;
+  opacity: 1;
+}
+.bento-outer.bento--bg .bento-control:before {
+  background: rgba(18, 18, 18, 0.5);
+}
+.bento-outer.bento--bg .bento__overlay {
+  opacity: 0.85;
+}
+
+.bento-background {
+  position: fixed;
+  inset: 0;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 100% auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s;
+}
+@media only screen and (max-width: 767px) {
+  .bento-background {
+    background-size: cover;
+  }
+}
+
+.bento-control {
+  position: sticky;
+  top: 40px;
+  z-index: 2;
+  flex-shrink: 0;
+  width: 240px;
+  margin-right: 40px;
+  padding: 8px;
+}
+@media only screen and (max-width: 1259px) {
+  .bento-control {
+    top: 24px;
+    margin-right: 24px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .bento-control {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    z-index: 20;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .bento-control:after {
+    content: "";
+    position: absolute;
+    inset: -16px;
+    z-index: -1;
+    background: rgba(248, 248, 248, 0.05);
+    -webkit-backdrop-filter: blur(50px);
+            backdrop-filter: blur(50px);
+    opacity: 0;
+  }
+  .bento-control.bento--fixed:after {
+    opacity: 1;
+  }
+}
+.bento-control:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 24px;
+  background: rgba(248, 248, 248, 0.05);
+  box-shadow: 0px 24px 32px -12px rgba(18, 18, 18, 0.1), 2px 4px 16px 0px rgba(248, 248, 248, 0.06) inset;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  transition: background 0.2s;
+}
+.bento-control__button {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 44px;
+  padding: 0 8px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 16px;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(248, 248, 248, 0.8);
+  cursor: pointer;
+  transition: all 0.2s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+@media only screen and (max-width: 1023px) {
+  .bento-control__button {
+    height: 52px;
+    padding: 0 16px;
+  }
+}
+.bento-control__button:hover {
+  background: rgba(248, 248, 248, 0.1);
+  color: rgba(248, 248, 248, 0.8);
+}
+@media only screen and (max-width: 1023px) {
+  .bento-control__button:hover {
+    background: transparent;
+  }
+}
+.bento-control__button:hover .bento-control__icon svg:ntth-child(1) {
+  fill: rgba(248, 248, 248, 0.8);
+}
+.bento-control__button.bento--active {
+  background: transparent;
+  color: rgba(248, 248, 248, 0.95);
+}
+.bento-control__button.bento--active .bento-control__icon svg:nth-child(1) {
+  opacity: 0;
+  fill: rgba(248, 248, 248, 0.95);
+}
+.bento-control__button.bento--active .bento-control__icon svg:nth-child(2) {
+  opacity: 1;
+}
+.bento-control__button.bento--active .bento-control__switch {
+  background: rgba(40, 40, 40, 0.5);
+}
+.bento-control__button.bento--active .bento-control__switch:before {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+  background: rgba(248, 248, 248, 0.8);
+}
+.bento-control__button:last-child.bento--active .bento-control__icon svg:nth-child(1) {
+  opacity: 1;
+}
+@media only screen and (max-width: 1023px) {
+  .bento-control__button:not(:last-child) {
+    display: none;
+  }
+}
+.bento-control__icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+.bento-control__icon svg:nth-child(1) {
+  fill: rgba(248, 248, 248, 0.7);
+  transition: opacity 0.2s, fill 0.2s;
+}
+.bento-control__icon svg:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  fill: rgba(248, 248, 248, 0.95);
+  opacity: 0;
+  transition: opacity 0.2s, fill 0.2s;
+}
+.bento-control__switch {
+  position: relative;
+  flex-shrink: 0;
+  width: 44px;
+  height: 24px;
+  margin-left: auto;
+  border-radius: 12px;
+  background: rgba(248, 248, 248, 0.05);
+  transition: background 0.2s;
+}
+.bento-control__switch:before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgba(248, 248, 248, 0.3);
+  transition: background 0.2s, -webkit-transform 0.2s;
+  transition: transform 0.2s, background 0.2s;
+  transition: transform 0.2s, background 0.2s, -webkit-transform 0.2s;
+}
+
+.bento-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 16px;
+}
+@media only screen and (max-width: 767px) {
+  .bento-list {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+.bento-list__bento {
+  position: relative;
+}
+.bento-list__bento:hover .bento-list__number {
+  visibility: visible;
+  opacity: 1;
+}
+.bento-list__number {
+  position: absolute;
+  z-index: 10;
+  top: 20px;
+  right: 20px;
+  padding: 4px 8px;
+  border-radius: 20px;
+  background: rgba(248, 248, 248, 0.1);
+  visibility: hidden;
+  opacity: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(248, 248, 248, 0.7);
+  transition: all 0.2s;
+}
+
+.bento {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 368px;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 32px;
+}
+@media only screen and (max-width: 767px) {
+  .bento {
+    width: 100%;
+  }
+}
+.bento *, .bento *:before, .bento *:after {
+  box-sizing: inherit;
+}
+.bento img {
+  display: block;
+}
+.bento:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(48, 48, 48, 0.2);
+  -webkit-backdrop-filter: blur(24px);
+          backdrop-filter: blur(24px);
+  border-radius: 32px;
+}
+.bento__inner {
+  position: relative;
+  flex-grow: 1;
+  padding: 368px 16px 32px;
+}
+.bento__overlay {
+  position: absolute;
+  inset: 0;
+  background-color: #303030;
+  border-radius: 32px;
+}
+.bento__overlay:before, .bento__overlay:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+  pointer-events: none;
+}
+.bento__overlay:before {
+  z-index: 1;
+  box-shadow: inset 2px 4px 16px rgba(248, 248, 248, 0.06);
+}
+.bento__overlay:after {
+  z-index: 2;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
+  -webkit-mask-image: linear-gradient(to bottom, black, transparent 75%);
+          mask-image: linear-gradient(to bottom, black, transparent 75%);
+}
+.bento__preview {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  height: 336px;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.bento__preview img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: 500px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 389px) {
+  .bento__preview img {
+    width: 472px;
+  }
+}
+.bento__details {
+  position: relative;
+  z-index: 2;
+  padding: 0 16px;
+}
+@media only screen and (max-width: 767px) {
+  .bento__details {
+    padding: 0 8px;
+  }
+}
+.bento__title {
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: rgba(248, 248, 248, 0.95);
+}
+.bento__content {
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(248, 248, 248, 0.7);
+}
+.bento-button {
+  position: relative;
+  margin: 0;
+  padding: 12px 32px;
+  background: none;
+  border: 0;
+  overflow: hidden;
+  font-family: "Rubik", sans-serif;
+  border-radius: 32px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: rgba(248, 248, 248, 0.7);
+  cursor: pointer;
+}
+.bento-button:before, .bento-button:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+.bento-button:before {
+  background: rgba(40, 40, 40, 0.7);
+  box-shadow: inset 2px 4px 16px 0px rgba(248, 248, 248, 0.06);
+  border-radius: 32px;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+}
+.bento-button:after {
+  z-index: 2;
+  border: 1px solid rgba(248, 248, 248, 0.25);
+  border-radius: 32px;
+  -webkit-mask-image: linear-gradient(170deg, black, transparent 50%);
+          mask-image: linear-gradient(170deg, black, transparent 50%);
+  pointer-events: none;
+  opacity: 0.25;
+}
+.bento-button__title {
+  position: relative;
+  z-index: 4;
+}
+.bento-button__circle {
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  z-index: 3;
+  width: 200px;
+  height: 200px;
+}
+.bento-button__circle:before, .bento-button__circle:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+}
+.bento-button__circle:before {
+  background: conic-gradient(from 180deg at 50% 50%, rgba(255, 255, 255, 0.01) 180deg, rgba(255, 255, 255, 0.05) 360deg);
+  -webkit-filter: blur(15px);
+          filter: blur(15px);
+  -webkit-animation: button-circle 3.6s linear infinite;
+          animation: button-circle 3.6s linear infinite;
+  transition: opacity 0.5s;
+}
+.bento-button__circle:after {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  inset: 30px;
+  background: rgba(248, 248, 248, 0.12);
+  -webkit-mask-image: radial-gradient(50% 50% at 50% 50%, black, rgba(0, 0, 0, 0));
+          mask-image: radial-gradient(50% 50% at 50% 50%, black, rgba(0, 0, 0, 0));
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  opacity: 0;
+  transition: all 1s;
+}
+.bento-button:hover .bento-button__circle:before {
+  opacity: 0;
+}
+.bento-button:hover .bento-button__circle:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.bento_wide {
+  width: 528px;
+}
+@media only screen and (max-width: 767px) {
+  .bento_wide {
+    width: 100%;
+  }
+}
+.bento_wide .bento__content {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+@media only screen and (max-width: 767px) {
+  .bento_wide .bento__content {
+    display: block;
+    -webkit-line-clamp: none;
+  }
+}
+.bento_horizontal {
+  width: 700px;
+  min-height: 368px;
+}
+@media only screen and (max-width: 767px) {
+  .bento_horizontal {
+    width: 100%;
+    min-height: auto;
+  }
+}
+.bento_horizontal .bento__inner {
+  display: flex;
+  align-items: center;
+  padding: 16px 16px 16px 352px;
+}
+@media only screen and (max-width: 767px) {
+  .bento_horizontal .bento__inner {
+    display: block;
+    width: 100%;
+    padding: 368px 16px 32px;
+  }
+}
+.bento_horizontal .bento__preview {
+  right: auto;
+  bottom: 16px;
+  width: 336px;
+  height: auto;
+}
+@media only screen and (max-width: 767px) {
+  .bento_horizontal .bento__preview {
+    right: 16px;
+    bottom: auto;
+    width: auto;
+    height: 336px;
+  }
+}
+.bento_horizontal .bento__details {
+  padding-left: 32px;
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .bento_horizontal .bento__details {
+    padding: 0 8px;
+    text-align: left;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@-webkit-keyframes button-circle {
+  0% {
+    -webkit-transform: translateX(0) rotate(0);
+            transform: translateX(0) rotate(0);
+  }
+  25% {
+    -webkit-transform: translateX(-30px) rotate(90deg);
+            transform: translateX(-30px) rotate(90deg);
+  }
+  50% {
+    -webkit-transform: translateX(0) rotate(180deg);
+            transform: translateX(0) rotate(180deg);
+  }
+  75% {
+    -webkit-transform: translateX(30px) rotate(270deg);
+            transform: translateX(30px) rotate(270deg);
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(360deg);
+            transform: translateX(0) rotate(360deg);
+  }
+}
+
+@keyframes button-circle {
+  0% {
+    -webkit-transform: translateX(0) rotate(0);
+            transform: translateX(0) rotate(0);
+  }
+  25% {
+    -webkit-transform: translateX(-30px) rotate(90deg);
+            transform: translateX(-30px) rotate(90deg);
+  }
+  50% {
+    -webkit-transform: translateX(0) rotate(180deg);
+            transform: translateX(0) rotate(180deg);
+  }
+  75% {
+    -webkit-transform: translateX(30px) rotate(270deg);
+            transform: translateX(30px) rotate(270deg);
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(360deg);
+            transform: translateX(0) rotate(360deg);
+  }
+}
