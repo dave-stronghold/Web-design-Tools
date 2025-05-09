@@ -12,6 +12,7 @@
 >Blogs 
 
 https://www.30secondsofcode.org/
+https://tympanus.net/codrops/
 codrops
 loversmagazine
 https://www.rob.directory/
@@ -33,5 +34,6 @@ godly.website
 https://sinja.io/
 https://emilkowal.ski/
 https://www.frontend.fyi/
+https://barvian.me/
 
 Shane Mielke

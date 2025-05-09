@@ -47,6 +47,7 @@
      troika3d react
      shaderpark**
      hamo
+     resmbl
      
 >Utility Libraries
     
@@ -58,6 +59,7 @@
 >2d JS libraries
 
     p5js for 2d
+    anime Js
     zdog
     two js
     konva
@@ -88,6 +90,8 @@
     https://themer.dev/
     https://scrollbar.app/
 	https://react-pdf.org/styling
+    resmbl js
+    canvas2blob
 
 > Graphic Design + resources
 
