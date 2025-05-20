@@ -6,7 +6,7 @@
 6. https://github.com/kentcdodds
 7. https://www.cristhgunners.com/page4/
 8. Frontend FYI – by Jeroen
-
+9. https://www.davidhaz.blog/
 
 
 >Blogs 

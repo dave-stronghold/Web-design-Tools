@@ -48,13 +48,16 @@
      shaderpark**
      hamo
      resmbl
-     
+     haiku
+
 >Utility Libraries
     
     remeda
     arktype
     rehooks
     useHooks
+    haiku 
+    hamo
 
 >2d JS libraries
 
@@ -197,24 +200,24 @@
     origin UI
     Hero UI
     BundUI
-    LunarUI
+    LunarUI***
     Una UI
     Radix UI
     Rafty UI
     Aceternity UI - (https://ui.aceternity.com/) **
     React Bits **   
+    motion primitives **
     https://originui.com/***
     Preline UI
     Ripple UI
-    Park UI
+    Park UI - ark ui headless
     https://tamagui.dev/
     https://mafs.dev/guides/get-started/installation
     Magic UI**
     Myna UI - enterprise-grade
     Shadcn
-    motion primitives **
     https://headlessui.com/
-
+    Ark UI headless** (Zag UI - FSM powered)
     https://tailkits.com/
 
 > Command Palette
@@ -270,7 +273,7 @@
     floatui.com
     Pixel UI
     Meraki ui
-    tailus
+    tailus**
     Uno.unify-ui
     Magic UI**
 	Hyper UI
@@ -279,6 +282,7 @@
 > AI Lang UI's
 
     langui.dev
+    context7**
 
 ## GUI Scripting Interfaces
 
