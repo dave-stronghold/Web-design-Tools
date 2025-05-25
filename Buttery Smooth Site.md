@@ -67,7 +67,7 @@
     two js
     konva
     pixi
-    paper js
+    paper js**
     regl- webgl abstraction
 
 
@@ -282,7 +282,16 @@
 > AI Lang UI's
 
     langui.dev
+
+> Agentic AI
+
+    cline
+    ollama
     context7**
+    SME
+    stagewise--*
+    lovable
+    Cursor
 
 ## GUI Scripting Interfaces
 
