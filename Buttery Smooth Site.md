@@ -2,12 +2,15 @@
 
      Lenis - A smooth Scroll library
      scrollex
+     React Scan**
      Gatsby and React
      p5
      Codrops for tutorials
      3js journey
      Scrolltrigger
      Lottiefiles
+     onboarda- tour
+     OG image playground
      Opengraph for preview messages
      Microlink.io
      Mapbox GL for maps
@@ -42,6 +45,7 @@
      DnD kit
      *https://rombo.co/tailwind/
      popmotion
+     unicorn studio***
      https://atroposjs.com/ - 3d parallex
 	 locomotive scroll
      troika3d react
@@ -69,6 +73,8 @@
     pixi
     paper js**
     regl- webgl abstraction
+
+    SDF - https://iquilezles.org/articles/distfunctions/
 
 
 > List of Tools
@@ -201,6 +207,7 @@
     Hero UI
     BundUI
     LunarUI***
+    https://www.badtz-ui.com/***
     Una UI
     Radix UI
     Rafty UI
@@ -218,7 +225,7 @@
     Shadcn
     https://headlessui.com/
     Ark UI headless** (Zag UI - FSM powered)
-    https://tailkits.com/
+    https://tailkits.com/****
 
 > Command Palette
 
@@ -270,14 +277,39 @@
 
 > Modular Web Design UI's
 
+    refer tailkits
+
     floatui.com
     Pixel UI
     Meraki ui
-    tailus**
+    tailus** $$
     Uno.unify-ui
     Magic UI**
-	Hyper UI
+    tail ark***
+    https://www.badtz-ui.com/**
+    flyon ui
+	Hyper UI $$
     motion-primitives**
+    kokonutui**
+    PaceUI
+    oxbow UI
+    shadcnblocks
+    https://www.neobrutalism.dev/
+    Pines UI $$
+    origin ui
+    https://componentland.com/ $$
+    easy frontend $$
+    readymadeui $$
+    davidUI $$
+
+    shuffle.dev
+
+>Visual Builders
+    
+    Builder.io
+    GrapesJS
+    Onlook
+    mitosis
 
 > AI Lang UI's
 
@@ -345,3 +377,9 @@
     kepler.gl
     deck.gl
     vis.g
+    unicorn studio**
+
+> Stack collection
+
+    https://nextradar.dev/
+    https://openalternative.co/
