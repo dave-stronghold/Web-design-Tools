@@ -207,6 +207,8 @@
     Hero UI
     BundUI
     LunarUI***
+    Cult UI**
+    Eldora UI***
     https://www.badtz-ui.com/***
     Una UI
     Radix UI
@@ -223,9 +225,12 @@
     Magic UI**
     Myna UI - enterprise-grade
     Shadcn
+    https://skiper-ui.com/**
     https://headlessui.com/
     Ark UI headless** (Zag UI - FSM powered)
     https://tailkits.com/****
+    https://www.ui-layouts.com/
+    https://21st.dev/
 
 > Command Palette
 
@@ -278,29 +283,41 @@
 > Modular Web Design UI's
 
     refer tailkits
-
+    skiper-ui.com**L
     floatui.com
     Pixel UI
     Meraki ui
     tailus** $$
     Uno.unify-ui
     Magic UI**
-    tail ark***
+    tail ark*** $$L
     https://www.badtz-ui.com/**
     flyon ui
 	Hyper UI $$
     motion-primitives**
+    https://skiper-ui.com/**
     kokonutui**
     PaceUI
     oxbow UI
     shadcnblocks
     https://www.neobrutalism.dev/
     Pines UI $$
+    https://www.ui-layouts.com/$$***
     origin ui
     https://componentland.com/ $$
     easy frontend $$
     readymadeui $$
     davidUI $$
+    flowrift
+    https://21st.dev/ $$L
+    https://treact.owaiskhan.me/ $$
+    https://www.wickedblocks.dev/ $$L
+    cult ui $$L
+    Eldora UI $$L
+
+    https://pixelcave.com/freebies***
+    https://www.builtatlightspeed.com/ ***
+    refer - https://postsrc.com/components/tailwind-css-features/basic-features-component
 
     shuffle.dev
 
@@ -309,6 +326,7 @@
     Builder.io
     GrapesJS
     Onlook
+    https://paneflow.com/**
     mitosis
 
 > AI Lang UI's
