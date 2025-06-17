@@ -51,6 +51,7 @@
      troika3d react
      shaderpark**
      hamo
+     classix* instead of clsx
      resmbl
      haiku
 
@@ -120,6 +121,7 @@
 	https://uiverse.io/spotlight **
 	Smooth shadow - https://shadows.brumm.af/
 	https://futicons.com/ - futuristic
+    https://animated.extend-ui.com/-slideshow
 
 
 > Multiplayer
@@ -201,6 +203,9 @@
 > Beautiful UI
 
     StorefrontUI**
+    chimera ui
+    https://www.beeq.design/*____+++++++
+    https://tamagui.dev/***
     Tailus UI**
     Daisy UI
     origin UI
@@ -219,13 +224,18 @@
     https://originui.com/***
     Preline UI
     Ripple UI
+    Kibo UI** (kanban,dnd,gantt)
+    fancy components**
     Park UI - ark ui headless
     https://tamagui.dev/
     https://mafs.dev/guides/get-started/installation
     Magic UI**
     Myna UI - enterprise-grade
     Shadcn
+    nyxbui.design**
+    https://animata.design/**
     https://skiper-ui.com/**
+    https://ground.bossadizenith.me/**
     https://headlessui.com/
     Ark UI headless** (Zag UI - FSM powered)
     https://tailkits.com/****
@@ -280,6 +290,23 @@
     https://daybrush.com/infinite-viewer/
     https://mafs.dev/guides/get-started/installation
 
+>Tailwind Utilities/Frontend Utilities
+
+        https://helpy-ui.com/ (())
+        https://www.builtatlightspeed.com/ (())
+        https://bestwebdesigntools.com/ (())
+        
+        classix,signals
+        https://chanhdai.com/blog/react-wheel-picker
+        lucide
+        monicons/icones
+        tailwind anchors
+        https://animation.ibelick.com/
+        https://icons.pqoqubbw.dev/
+        https://helpy-ui.com/?ref=helpy-ui
+        https://bg.ibelick.com/
+        https://svgps.app/
+
 > Modular Web Design UI's
 
     refer tailkits
@@ -300,7 +327,8 @@
     PaceUI
     oxbow UI
     shadcnblocks
-    https://www.neobrutalism.dev/
+    https://www.neobrutalism.dev/*
+    retro ui**
     Pines UI $$
     https://www.ui-layouts.com/$$***
     origin ui
@@ -308,26 +336,31 @@
     easy frontend $$
     readymadeui $$
     davidUI $$
+    https://www.diceui.com/**
     flowrift
     https://21st.dev/ $$L
     https://treact.owaiskhan.me/ $$
     https://www.wickedblocks.dev/ $$L
     cult ui $$L
     Eldora UI $$L
-
+    https://pageui.shipixen.com/$$L
+    https://ground.bossadizenith.me/ $$L**
     https://pixelcave.com/freebies***
     https://www.builtatlightspeed.com/ ***
     refer - https://postsrc.com/components/tailwind-css-features/basic-features-component
-
+    https://nyxbui.design/***$$L
     shuffle.dev
 
 >Visual Builders
     
+    Chai Builder**
+    https://www.uibuilder.app/
     Builder.io
     GrapesJS
     Onlook
     https://paneflow.com/**
     mitosis
+    pinegrow
 
 > AI Lang UI's
 
@@ -401,3 +434,7 @@
 
     https://nextradar.dev/
     https://openalternative.co/
+
+> AI Assistants
+
+    Kortix

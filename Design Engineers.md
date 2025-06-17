@@ -7,6 +7,7 @@
 7. https://www.cristhgunners.com/page4/
 8. Frontend FYI – by Jeroen
 9. https://www.davidhaz.blog/
+10. https://bytes.dev/archives
 
 
 >Blogs 
@@ -28,6 +29,7 @@ https://www.frontend.fyi/
 https://uiplaybook.dev
 https://github.com/plxity/framer-recipes?tab=readme-ov-file
 godly.website
+https://helpy-ui.com/?ref=helpy-ui
 
 
 >frontend
