@@ -53,6 +53,7 @@
      hamo
      classix* instead of clsx
      resmbl
+     keen-slider
      haiku
 
 >Utility Libraries
@@ -338,10 +339,11 @@
     davidUI $$
     https://www.diceui.com/**
     flowrift
-    https://21st.dev/ $$L
+    https://21st.dev/ $$L****************** impressive
     https://treact.owaiskhan.me/ $$
     https://www.wickedblocks.dev/ $$L
     cult ui $$L
+    Launch UI $$L
     Eldora UI $$L
     https://pageui.shipixen.com/$$L
     https://ground.bossadizenith.me/ $$L**
@@ -350,6 +352,7 @@
     refer - https://postsrc.com/components/tailwind-css-features/basic-features-component
     https://nyxbui.design/***$$L
     shuffle.dev
+    serenity UI **
 
 >Visual Builders
     

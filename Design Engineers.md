@@ -1,4 +1,5 @@
 1. https://emilkowal.ski/
+2. https://blog.maximeheckel.com/**
 2. https://rauno.me/
 3. https://www.rob.directory/blog/infinite-canvas
 4. https://paco.me/
