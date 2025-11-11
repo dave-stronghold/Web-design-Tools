@@ -15,3 +15,6 @@ book of shaders
 
 https://easingwizard.com/
 http://100dayscss.com/
+https://uiverse.io/blog
+
+Euclidea

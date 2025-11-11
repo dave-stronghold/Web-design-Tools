@@ -9,7 +9,7 @@
 8. Frontend FYI – by Jeroen
 9. https://www.davidhaz.blog/
 10. https://bytes.dev/archives
-
+11.https://www.hillarycoe.com/?ref=onepagelove
 
 >Blogs 
 
@@ -31,7 +31,7 @@ https://uiplaybook.dev
 https://github.com/plxity/framer-recipes?tab=readme-ov-file
 godly.website
 https://helpy-ui.com/?ref=helpy-ui
-
+https://collections.designzig.com/**AA
 
 >frontend
 https://sinja.io/
