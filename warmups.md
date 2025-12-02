@@ -12,6 +12,9 @@ gl-react
 webgl2 fundamen
 
 book of shaders
+xordev - [text](https://gmshaders.com/)
+https://www.fragments.supply/ **
+https://threejsroadmap.com/blog/getting-ai-to-write-tsl-that-works
 
 https://easingwizard.com/
 http://100dayscss.com/
