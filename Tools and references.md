@@ -24,3 +24,6 @@ https://sbcode.net/react-three-fiber/leva/
 toolfolio
 
 https://www.supahero.io/
+
+## Type
+https://www.grid-type.com/type-tool
